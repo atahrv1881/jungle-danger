@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> jungle safari</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <style>
+            body{  background-color:rgb(39, 39, 39); position: relative;}
+            .jungle-slide{      height:200px; text-align: center; padding-top: 75px; font-size: 1.8rem; color:azure;}
+            .slide-rainforest{background-color:forestgreen;}
+            .slide-river{background-color:rgb(29, 56, 78);}
+               .slide-night{background-color: rgb(41, 0, 95);}
+              .section{padding: 70px 20px; min-height:300px}
+              #rainforest{ background:rgb(162, 255, 162);}
+              #river{ background:rgb(110, 188, 255);}
+              #night{background:lavenderblush;}
+              nav{text-decoration: underline; }
+        </style>
+    </head>
+    <body data-spy="scroll" data-target="#junglenav" data-offset="60">
+     <div id="junglecarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#junglecarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#junglecarousel" data-slide-to="1" ></li>
+            <li data-target="#junglecarousel" data-slide-to="2" ></li> 
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active jungle-slide slide-rainforest">
+                🌿 rainforest adventure
+            </div>
+            <div class="carousel-item jungle-slide slide-river">
+                🐊 river journey
+            </div>
+            <div class="carousel-item jungle-slide slide-night">
+              🌔night journey
+            </div>
+            <a class="carousel-control-prev" href="#junglecarousel" data-slide="prev">
+             <span class="carousel-control-prev-icon">
+             </span>
+            </a>
+            <a class="carousel-control-next" href="#junglecarousel" data-slide="next">
+                <span class="carousel-control-next-icon">      
+                </span>
+            </a>
+        </div>
+     </div>
+     <nav id="junglenav" class="navbar navbar-expand-sm navbar-secondary  bg-secondary sticky-top">
+        <span class="navbar-brand"> 🌿jungle explorer</span>
+        <ul lass="navbar-nav">
+            <li class="nav-item"><a class=nav-link href=#rainforest>rainforest</a></li>
+            <li class="navitem"><a class=nav-link href=#river>river</a></li>
+            <li class="navitem"><a class=nav-link href=#night>night</a></li>
+        </ul>
+     </nav> 
+     <div cass="container">
+        <div id="rainforest" class="section">
+         <h2>🌿 rainforest adventure</h2>
+         <p>walk through trees, hide from dangrous animals, only eat fuits, and vegetables, to survive from hunger.</p>
+        </div>
+     <div id="river" class="section">
+        <h2>🐊 river journey</h2>
+        <p>try not to drown, in the scary river, or do not get eaten by a crocodile, and do not get stinged by a ,jelly fish.</p>
+     </div>
+    
+    <div id="night" class="section">
+      <h2>🌙 Night Jungle Safari</h2>
+      <p>Explore the jungle after sunset and look for owls, fireflies, bats, and leopards.</p>
+    </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    </body>
+</html>
